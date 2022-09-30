@@ -1,0 +1,15 @@
+# @package _global_
+dataset_name: fsd50
+batch_size: 16
+num_workers: 0
+pin_memory: False
+folds: 0
+classes: 200
+multi_label: True
+loss: BCE
+metric: mAP  #acc #f1
+
+  
+
+
+

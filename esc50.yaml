@@ -1,0 +1,15 @@
+# @package _global_
+dataset_name: esc
+batch_size: 16
+num_workers: 0
+pin_memory: False
+folds: 1
+classes: 50
+multi_label: False
+loss: CE
+metric: acc  #acc #f1
+
+  
+
+
+
